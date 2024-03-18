@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulário Para Contato</title>
+</head>
+<body>
+    <footer class="formcontato">
+        <div class="ctt">
+            <h2>Contact</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="nome" placeholder="Digite Seu Nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Digite Seu Email" autocomplete="off" required>
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="76c9183c-22a2-4de3-9bed-ffe84cc8b31a">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5502/obrigado.html">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
